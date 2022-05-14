@@ -1,3 +1,5 @@
+(This was a university final project for a Web Development class, not all pages are complete)
+
 This is a Cinema website that allows users to:
 -Register
 -Login
