@@ -1,0 +1,81 @@
+.wrapper {
+  border: 1px solid black;
+  width: 400px;
+  height: 500px;
+  margin: auto;
+  margin-top: 60px;
+  border-radius: 20px;
+}
+.form_control {
+  height: 20px;
+  border-radius: 4px;
+  margin-left: 100px;
+  width: 45%;
+  display: block;
+}
+input {
+  text-align: center;
+}
+label {
+  margin-left: 155px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 85%;
+}
+.conf_pass {
+  margin-left: 130px;
+}
+.help_block {
+  height: 35px;
+  display: block;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+  text-align: center;
+}
+[class^="btn"] {
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.btn_login {
+  margin-left: 100px;
+  position: absolute;
+}
+.btn_register {
+  margin-left: 200px;
+  position: relative;
+  display: block;
+}
+h2 {
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px grey;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 70px;
+}
+#login_p {
+  text-justify: auto;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-image: url("imgs/istockphoto-1131858515-612x612.jpg");
+}
+div {
+  background-image: url("imgs/crumpleduppieceofpaper.jpg");
+}
+.btn_submit {
+  margin-left: 105px;
+}
+#regist {
+  text-justify: auto;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}

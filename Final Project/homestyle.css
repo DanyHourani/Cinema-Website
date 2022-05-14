@@ -1,0 +1,213 @@
+body {
+  background-image: url("imgs/download.jpg");
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.wrapper {
+  width: 1000px;
+  margin: auto;
+  box-shadow: 3px 3px 3px white;
+  position: relative;
+}
+h1 {
+  text-align: center;
+}
+#banner {
+  height: 270px;
+  width: 1000px;
+
+  margin: auto;
+  position: relative;
+
+  margin-bottom: 10px;
+}
+img {
+  height: 270px;
+  width: 1000px;
+  position: absolute;
+}
+#bottom {
+  width: 1000px;
+  margin: auto;
+  position: absolute;
+  margin-top: 120px;
+}
+#btn2 {
+  right: 0px;
+  position: absolute;
+}
+[name^="btn"] {
+  height: 40px;
+  background-color: rgba(168, 147, 147, 0.267);
+  font-weight: bold;
+  font-size: large;
+}
+.pics {
+  width: 1000px;
+  height: 270px;
+}
+nav li {
+  display: inline-block;
+  margin-right: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 3px;
+}
+nav a:hover {
+  color: #3c75df;
+  border-bottom: 4px solid #1a3b79;
+}
+#logo {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+#sometext {
+  margin-top: 100px;
+  width: 500px;
+  font-size: 20px;
+  text-align: justify;
+  border: 1px solid white;
+  padding: 5px;
+}
+h2,
+p {
+  margin: 30px;
+}
+#imax {
+  width: 400px;
+  height: 800px;
+  padding: 5px;
+  position: absolute;
+  top: 500px;
+  left: 550px;
+}
+#imax img,
+#dx img {
+  width: 400px;
+  height: 250px;
+  border-radius: 8px;
+}
+#dx {
+  width: 400px;
+  height: 800px;
+  padding: 5px;
+  position: absolute;
+  top: 850px;
+  left: 550px;
+}
+#selection {
+  display: inline-block;
+  margin: 30px;
+}
+select {
+  height: 40px;
+  width: 250px;
+  background-color: rgb(188, 180, 219);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 8px;
+}
+#date {
+  background-color: rgb(188, 180, 219);
+  border-radius: 8px;
+  height: 40px;
+  font-weight: bold;
+}
+#tick {
+  background-color: rgb(188, 180, 219);
+  border-radius: 8px;
+  height: 30px;
+  width: 100px;
+  font-weight: bold;
+  text-align: center;
+}
+#qtity {
+  margin: 30px;
+  display: inline-block;
+  top: 72%;
+  left: 30%;
+}
+#posters img {
+  width: 180px;
+  height: 250px;
+}
+#posters {
+  width: 1000px;
+  height: 450px;
+  align-items: center;
+}
+#posters h3,
+h4 {
+  margin-left: 30px;
+}
+.column {
+  display: inline-block;
+  padding-inline: 100px;
+}
+#posters img:hover {
+  box-shadow: 5px 5px 3px rgb(188, 180, 219);
+  width: 195px;
+  height: 265px;
+}
+#prc,
+#confirm {
+  width: 80px;
+  height: 30px;
+  background-color: rgb(188, 180, 219);
+  border-radius: 8px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+#receipt {
+  margin: 30px;
+  bottom: 40px;
+  position: relative;
+}
+#check {
+  margin-top: 15px;
+}
+#confirm {
+  margin-left: 25px;
+  height: 38px;
+  width: 100px;
+}
+#confirm:hover {
+  cursor: pointer;
+  font-weight: bold;
+  color: rgb(40, 105, 202);
+}
+#terms:hover {
+  font-weight: bold;
+  color: rgb(230, 62, 62);
+}
+#logout {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(188, 180, 219);
+  font-size: large;
+  border-radius: 8px;
+}
+#socials img {
+  width: 50px;
+  height: 50px;
+}
+.media {
+  display: inline-block;
+  padding-inline: 70px;
+}
+#socials {
+  height: 100px;
+}
+#socials img:hover {
+  width: 70px;
+  height: 70px;
+}
+table {
+  margin: auto;
+}
